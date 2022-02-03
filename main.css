@@ -1,23 +1,28 @@
+#main{
+    text-align: center;
+}
 h1{
     color:orangered;
     font-size: 45px;
 }
-
-/* Grid Styling*/
-#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9{
-    width: 80px;
-    height: 52px;
-    margin: auto;
-    border: 1px solid grey;
-    border-radius: 6px;
-    font-size: 30px;
-    text-align: center;
+#instructions{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: dodgerblue;
+    font-size: 17px;
 }
-
-/* Reset Button*/
-#reset{
-    width: 95px;
-    height: 40px;
+table{
+    
+    width: 20%;
+    margin: 0 auto;
+    
+}
+tr,td{
+    border:1px solid black;
+    width: 10px;
+    height: 10px;
+    
+}
+#restartGame{
     border: 1px solid dodgerblue;
     margin: auto;
     border-radius: 4px;
@@ -26,20 +31,4 @@ h1{
     background-color: dodgerblue;
     color: white;
     cursor: pointer;
-}
-
-#print{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: dodgerblue;
-    font-size: 20px;
-}
-
-#main{
-    text-align: center;
-}
-
-#instructions{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: dodgerblue;
-    font-size: 17px;
 }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Tic Tac Toe Game</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script type="text/javascript" src="js/Game_Logic.js"></script>
+    </head>
+
+    <body>
+        <div id="main">
+            <h1>TIC-TAC-TOE</h1>
+
+            <p id="instructions">Game starts by tapping on
+            box<br>First player starts as <b>Player X</b><br>
+            And<br>
+            Second player starts as <b>Player O</b>
+            </p>
+
+            <br><br><br>
+            <table id="outputGameBoard">
+                <tr>
+                    <td onclick="updateBoard(0,0)";></td>
+                    <td onclick="updateBoard(0,1)";></td>
+                    <td onclick="updateBoard(0,2)";></td>
+                </tr>
+                <tr>
+                    <td onclick="updateBoard(1,0)";></td>
+                    <td onclick="updateBoard(1,1)";></td>
+                    <td onclick="updateBoard(1,2)";></td>
+                </tr>
+                <tr>
+                    <td onclick="updateBoard(2,0)";></td>
+                    <td onclick="updateBoard(2,1)";></td>
+                    <td onclick="updateBoard(2,2)";></td>
+                </tr>
+            </table>
+            <br>
+            <button id="restartGame" onclick="restartGame()">Retart Game</button>
+            <br><br><br>
+            <table style="width: 40px;height: 20px;">
+            </table>
+            <br>
+            <p id="turnDisplayer"></p>
+        </div>
+    </body>
+</html>
