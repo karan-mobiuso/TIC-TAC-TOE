@@ -9,6 +9,7 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: dodgerblue;
     font-size: 17px;
+    margin-bottom: 60px;
 }
 table{
     
@@ -18,17 +19,24 @@ table{
 }
 tr,td{
     border:1px solid black;
-    width: 10px;
-    height: 10px;
-    
+    width: 20%;
+    height: 30px;
 }
-#restartGame{
-    border: 1px solid dodgerblue;
-    margin: auto;
-    border-radius: 4px;
+#restart-game{
+    border: none;
+    border-radius: 2px;
+
+    text-align: center;
+    text-decoration: none;
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
+
     background-color: dodgerblue;
     color: white;
     cursor: pointer;
+
+    margin: 4px 2px;
+    padding: 6px;
+    display: inline-block;
 }
